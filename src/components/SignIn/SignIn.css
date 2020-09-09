@@ -1,0 +1,83 @@
+main {
+	display: grid;
+	border: 0;
+	margin: 0 auto;
+	margin-top: 4rem;
+	background: #1E2224;
+	width: 50rem;
+	height: 30rem;
+	padding: 40px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	border-radius: 3.5rem;
+}
+
+.header {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.signForm {
+	background: none;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 15px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 24px;
+	border-width: 2.5px;
+	transition: 0.35s;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus {
+	width: 320px;
+	border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+	margin-top: 50px;
+	padding: 14px 40px;
+	border: 2px solid #2ecc71;
+	cursor: pointer;
+	color:white;
+}
+
+.box input[type='submit']:hover {
+	background: #2ecc71
+}
+
+.pow {
+	position: absolute;
+	width: 170px;
+	bottom: 25rem;
+	left: 38rem;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.Ninja:hover .pow {
+	opacity: 0.85;
+}
+
+.email, .password {
+	background: #DEE5FF;
+}
+
+.register {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.register:hover {
+	transform: scale(1.1);
+	text-decoration: underline;
+
+}
+
+.name {
+	background: #DEE5FF;
+}

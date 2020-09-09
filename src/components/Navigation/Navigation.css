@@ -1,0 +1,18 @@
+nav {
+	display: flex;
+	justify-content: flex-end;
+	background: #1E2224;
+}
+
+p {
+	margin: auto 0;
+	padding: 10px 40px;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	transition: 0.20s;
+}
+
+.nav:hover {
+	transform: scale(0.90);	
+}
